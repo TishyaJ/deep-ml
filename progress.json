@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T11:49:51.117Z",
+  "generated_at": "2026-10-06T12:33:47.639Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -11,6 +11,19 @@
       "path": "math/0001-derivatives-and-gradients",
       "first_solved_at": "2026-10-06T11:49:46.947Z",
       "last_pushed_at": "2026-10-06T11:49:46.947Z"
+    },
+    "problem:1462": {
+      "kind": "problem",
+      "id": "1462",
+      "title": "Power Users With Purchases in Every Month of the Year",
+      "difficulty": "medium",
+      "category": "Sql",
+      "url": "https://www.deep-ml.com/problems/1462",
+      "path": "problems/1462-power-users-with-purchases-in-every-month-of-the-year",
+      "first_solved_at": "2026-10-06T12:33:46.916Z",
+      "last_pushed_at": "2026-10-06T12:33:46.916Z",
+      "language": "sql",
+      "lines": 17
     }
   }
 }
