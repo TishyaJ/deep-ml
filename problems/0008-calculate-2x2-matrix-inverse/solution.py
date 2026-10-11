@@ -1,6 +1,15 @@
 import numpy as np
 def inverse_2x2(matrix: list[list[float]]) -> list[list[float]] | None:
     """
+    import torch
+
+    tensor = torch.tensor(matrix, dtype=torch.float32)
+    try:
+        return torch.linalg.inv(tensor).tolist()
+    except RuntimeError:
+        return None  # Raised if the matrix is singular
+    """
+    """
     Calculate the inverse of a 2x2 matrix.
     
     Args:
@@ -15,4 +24,5 @@ def inverse_2x2(matrix: list[list[float]]) -> list[list[float]] | None:
         return np.linalg.inv(arr).tolist()
     except np.linalg.LinAlgError:
         return None
+
     
